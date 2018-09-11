@@ -1,6 +1,8 @@
 body{
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 h1{
     color: blue;
     text-align: center;
@@ -11,17 +13,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:blue;
+    background-color: grey;
 }
 
 header img{
-    width: 6vw; /*vh; viewport width */
+    width: 6vw; /* vw: viewport width */
     margin-right: 10px;
     padding: 5px;
-
 }
-
-    
 
 .menu a{
     text-decoration: none;
@@ -38,18 +37,50 @@ aside{
 
 .text h2, .text p{
     padding: 10px;
-    margin: 0px 10px 0px 10px; /* top right bottom left */
-    color: blue;
-}
+    margin: 20px 10px 0px 10px; /* top right bottom left */
+    color: #395c93;
 
-text p{
-    font-weight: blue;
+}
+.text p{
+    
+    font-family: 'Quicksand', sans-serif;
 }
 
 .receita{
     font-size: 11pt;
+    font-family: 'Quicksand', sans-serif;
     line-height: 20px;
     letter-spacing: 1px;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
+
+.tutorial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#coxinha{
+    width: 35%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.rodape button{
+    background-color: midnightblue;
+    color: white;
+    font-size: 12pt; 
+    padding: 12px;
+    border: none;
+}
+
+.rodape button:hover{
+    background-color: blueviolet;
+}
+
